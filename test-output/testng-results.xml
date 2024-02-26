@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-26T12:21:02 IST" name="Default suite" finished-at="2024-02-26T12:21:53 IST" duration-ms="50624">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerwithTestNG@1bb5a082]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-02-26T12:21:02 IST" name="Default test" finished-at="2024-02-26T12:21:53 IST" duration-ms="50624">
+      <class name="runner.RunnerwithTestNG">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.RunnerwithTestNG@1bb5a082]" started-at="2024-02-26T12:21:03 IST" name="setUpClass" finished-at="2024-02-26T12:21:05 IST" duration-ms="2755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@630bf683]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerwithTestNG@1bb5a082]" started-at="2024-02-26T12:21:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-26T12:21:28 IST" duration-ms="22437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login for positive testcase"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality of DemoWenShop Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerwithTestNG@1bb5a082]" started-at="2024-02-26T12:21:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-26T12:21:48 IST" duration-ms="20424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login for positive testcase"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality of DemoWenShop Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.RunnerwithTestNG@1bb5a082]" started-at="2024-02-26T12:21:48 IST" name="tearDownClass" finished-at="2024-02-26T12:21:53 IST" duration-ms="4721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunnerwithTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
